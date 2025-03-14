@@ -13,7 +13,6 @@ export default function Index() {
   console.log(movies?.map((x: any) => x.title))
   return (
     <View className="flex-1 bg-primary">
-      <StatusBar style="inverted" />
       <Image source={images.bg} className="absolute w-full z-0" />
       <View className="flex-1 px-5">
         {loadingMovies ?
